@@ -13,5 +13,9 @@ Deliverables:
   - Propose and evaluate defense against CPU frequency manipulation attack by the OS
   - Propose and evaluate defense against OS attempts to evict memory pages used by the time keeping application
 
+References:
+ - Tabellion: secure legal contracts on mobile devices
+ - Securing Time in Untrusted Operating Systems with TimeSeal
+
   
   
