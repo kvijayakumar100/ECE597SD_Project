@@ -22,5 +22,17 @@ References:
  - Tabellion: secure legal contracts on mobile devices
  - Securing Time in Untrusted Operating Systems with TimeSeal
 
+Link to System Blocks: https://drive.google.com/file/d/1ixDvhlOIOK-N0A0fZdRHQio0wuEuPjwe/view?usp=sharing
+
+Team Member Responsibilities (All will contribute some to each part):
+ - Krishna Vijayakumar: Build the threat model for timing application that analyze potential attacks and propose defense against frequency manipulation attacks
+ - Matt Buiser: Develop C application using assembly to build the timing service and evaluate the performance with different CPU loads
+ - Gavin Baril: Propose and evaluate defense against OS attempts to evict memory pages
+
+Project Timeline:
+  By check-in 1, we will try to develop the timing service using the device microarchitecture and test the resolution/uncertainty under different loads. By check-in 2, we will develop a threat model and propose defenses against the attack vectors. By the end of the semester, we will implement and evaluate the defense against the potential attacks and finish the project
+ 
+ 
+
   
   
