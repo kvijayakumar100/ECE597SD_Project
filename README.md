@@ -35,6 +35,7 @@ Project Timeline:
  
  
 EvalutateTimer.c is the main code we use to develop and evaluate the system.
+
 sampleApp.c runs counterEnable.c as a library to provide the timing service to an application.
   
   
