@@ -1,7 +1,7 @@
 # ECE597SD_Project
 
  Motivation:
-    Applications often rely on timing services provided by the OS to perform their intended task. Oftentimes, applications assume the OS to be trustworthy and secure. However, an adversary can manipulate the system's time services, defying the expected performance. Manipulating system time can reulting in errors in scheduling and causality.
+    Applications often rely on timing services provided by the OS to perform their intended task. Oftentimes, applications assume the OS to be trustworthy and secure. However, an adversarial OS can manipulate the system's time services, defying the expected performance. Manipulating system time can reulting in errors in scheduling and causality.
     
 Goal:
   To use device microarchitecture such as processor access to cache/memory to build a secure timing service
