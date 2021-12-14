@@ -34,6 +34,7 @@ Project Timeline:
   By check-in 2, we will have developed a secure timer. By the end of the semester, we will have tested the performance of the timer under different CPU loads and come up with a threat model for OS attacks. Also, we will try to propose and evaluate defenses against OS attempts to evict memory pages and CPU frequency manipulation attacks.
  
  
-
+EvalutateTimer.c is the main code we use to develop and evaluate the system.
+sampleApp.c runs counterEnable.c as a library to provide the timing service to an application.
   
   
