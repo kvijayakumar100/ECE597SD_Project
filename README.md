@@ -22,15 +22,16 @@ References:
  - Tabellion: secure legal contracts on mobile devices
  - Securing Time in Untrusted Operating Systems with TimeSeal
 
-Link to System Blocks: https://drive.google.com/file/d/1ixDvhlOIOK-N0A0fZdRHQio0wuEuPjwe/view?usp=sharing
+Link to Initial Proposed System Blocks: https://drive.google.com/file/d/1ixDvhlOIOK-N0A0fZdRHQio0wuEuPjwe/view?usp=sharing
+Link to Solution Blocks: https://drive.google.com/file/d/1yQFXATZgPsjWHk1Y3_q0TogPomcdA53b/view?usp=sharing
 
 Team Member Responsibilities (All will contribute some to each part):
- - Krishna Vijayakumar: Build the threat model for timing application that analyze potential attacks and propose and evaluate defense against frequency manipulation attacks. 
- - Matt Buiser: Develop C application using assembly to build the timing service.
- - Gavin Baril: Evaluate the performance of the timer under different CPU loads and propose and evaluate defense against OS attempts to evict memory pages.
+ - Krishna Vijayakumar: Build the threat model for timing application that analyze potential attacks evaluate system under different CPU loads and varying clock granularity. 
+ - Matt Buiser: Develop C application using assembly to build the timing service and find CPU and RAM percentage required for its usage when running in the background.
+ - Gavin Baril: Write a processor intensive function to evaluate the timing service under different CPU loads.
 
 Project Timeline:
-  By check-in 2, we will have developed a secure timer. By the end of the semester, we will have tested the performance of the timer under different CPU loads and come up with a threat model for OS attacks. Also, we will try to propose and evaluate defenses against two of the potential threats.
+  By check-in 2, we will have developed a secure timer. By the end of the semester, we will have tested the performance of the timer under different CPU loads and come up with a threat model for OS attacks. Also, we will try to propose and evaluate defenses against OS attempts to evict memory pages and CPU frequency manipulation attacks.
  
  
 
