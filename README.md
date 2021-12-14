@@ -26,7 +26,7 @@ Link to Initial Proposed System Blocks: https://drive.google.com/file/d/1ixDvhlO
 Link to Solution Blocks: https://drive.google.com/file/d/1yQFXATZgPsjWHk1Y3_q0TogPomcdA53b/view?usp=sharing
 
 Team Member Responsibilities (All will contribute some to each part):
- - Krishna Vijayakumar: Build the threat model for timing application that analyze potential attacks evaluate system under different CPU loads and varying clock granularity. 
+ - Krishna Vijayakumar: Build the threat model for timing application that analyzes potential attacks and evaluate system under different CPU loads and varying clock granularity. 
  - Matt Buiser: Develop C application using assembly to build the timing service and find CPU and RAM percentage required for its usage when running in the background.
  - Gavin Baril: Write a processor intensive function to evaluate the timing service under different CPU loads.
 
